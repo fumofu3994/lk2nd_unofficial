@@ -36,6 +36,7 @@ DTBS += \
 	$(LOCAL_DIR)/dub-al10a-va.dtb \
 	$(LOCAL_DIR)/dub-tl10b.dtb \
 	$(LOCAL_DIR)/dub-tl20-va.dtb \
+	$(LOCAL_DIR)/lnd-al30.dtb \
 	$(LOCAL_DIR)/xiaomi_oxyged.dtb \
 	$(LOCAL_DIR)/xiaomi-vince.dtb \
 	$(LOCAL_DIR)/xiaomi-daisy.dtb \
