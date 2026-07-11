@@ -1,0 +1,11 @@
+/dts-v1/;
+
+/include/ "msm8953.dtsi"
+/include/ "msm8953_huawei_common.dtsi"
+/include/ "sdm450_huawei_common.dtsi"
+
+/ {
+	model = "Huawei Technologies, Inc. LND-AL30";
+	compatible = "qcom,sdm450-qrd", "qcom,sdm450", "qcom,qrd", "lk2nd,device";
+	qcom,board-id= <201f 0>;
+};
