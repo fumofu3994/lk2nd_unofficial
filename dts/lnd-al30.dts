@@ -6,7 +6,7 @@
 / {
 	model = "Huawei Technologies, Inc. LND-AL30";
 	compatible = "qcom,sdm450-qrd", "qcom,sdm450", "qcom,qrd", "lk2nd,device";
-	qcom,board-id = <201f 0>;
+	qcom,board-id = <0x201f 0x0>;
 	qcom,pmic-id = <0x10016 0x20011 0x00 0x00>;
 	huawei,modem_id = <0xf7fc011e 0x00>;
 };
