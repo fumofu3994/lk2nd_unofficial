@@ -24,12 +24,12 @@ jobs:
       run: |
          make TOOLCHAIN_PREFIX=arm-none-eabi- msm8953-secondary  > build.log
     - name: Upload lk2nd image
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: lk2nd-${{ env.BUILD_TIME }}
         path: build-msm8953-secondary/lk2nd.img
     - name: Upload build log
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: log-${{ env.BUILD_TIME }}
         path: build.log
