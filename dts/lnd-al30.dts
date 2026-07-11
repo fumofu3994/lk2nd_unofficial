@@ -1,7 +1,6 @@
 /dts-v1/;
 
 /include/ "msm8953.dtsi"
-/include/ "msm8953_huawei_common.dtsi"
 /include/ "sdm450_huawei_common.dtsi"
 
 / {
