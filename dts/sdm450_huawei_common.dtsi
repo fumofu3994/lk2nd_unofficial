@@ -21,6 +21,6 @@
 / {
 	model = "Qualcomm Technologies, Inc. SDM450";
 	compatible = "qcom,sdm450";
-	qcom,msm-id = <338 0x0>;
+	qcom,msm-id = <152 0x0>;
 	qcom,msm-name = "SDM450";
 };
